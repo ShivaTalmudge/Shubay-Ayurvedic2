@@ -14,6 +14,7 @@ const Footer = () => {
             <div className="flex flex-col">
               <span className="text-xl font-bold text-white leading-tight">Shubhay Clinic</span>
               <span className="text-[10px] text-white/60 uppercase tracking-widest font-medium">Ayurved & Panchkarma</span>
+              <span className="text-[10px] text-primary/70 font-medium">शुभाय क्लिनिक - आयुर्वेद आणि पंचकर्म</span>
             </div>
           </div>
           <p className="text-white/60 text-sm leading-relaxed">
@@ -49,11 +50,11 @@ const Footer = () => {
           <ul className="space-y-4">
             <li className="flex gap-3 items-start">
               <MapPin className="text-primary w-5 h-5 shrink-0" />
-              <span className="text-white/60 text-sm">Gajanan Society, Sant Nagar, Sector 4, Moshi, Pune, MH 411070</span>
+              <span className="text-white/60 text-sm">B-2 Gajanan Society, Sector No. 4, Plot No. 1, Sant Nagar, Moshi Pradhikaran, Pune - 412105</span>
             </li>
             <li className="flex gap-3 items-center">
               <Phone className="text-primary w-5 h-5 shrink-0" />
-              <a href="tel:09970836811" className="text-white/60 text-sm hover:text-primary transition-colors">09970836811</a>
+              <a href="tel:9970836811" className="text-white/60 text-sm hover:text-primary transition-colors">9970836811</a>
             </li>
             <li className="flex gap-3 items-center">
               <Mail className="text-primary w-5 h-5 shrink-0" />
@@ -86,7 +87,7 @@ const Footer = () => {
       {/* Sticky Call Button (Mobile Only) */}
       <div className="fixed bottom-0 left-0 right-0 md:hidden z-40 p-4 pt-0">
         <a
-          href="tel:09970836811"
+          href="tel:9970836811"
           className="bg-primary text-white flex items-center justify-center gap-2 py-4 rounded-xl font-bold shadow-2xl"
         >
           <Phone size={20} /> Call Now

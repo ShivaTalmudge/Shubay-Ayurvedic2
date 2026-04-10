@@ -69,7 +69,7 @@ export default function Home() {
                 <div className="flex gap-1 mb-6 text-[#FFB800]">
                   {[...Array(t.rating)].map((_, i) => <Star key={i} size={18} fill="currentColor" />)}
                 </div>
-                <p className="text-charcoal/70 mb-8 italic leading-relaxed font-medium">"{t.text}"</p>
+                <p className="text-charcoal/70 mb-8 italic leading-relaxed font-medium">&quot;{t.text}&quot;</p>
                 <h4 className="font-bold text-charcoal">{t.name}</h4>
                 <p className="text-xs text-charcoal/40 uppercase tracking-widest font-bold">Verified Patient</p>
               </motion.div>
@@ -88,14 +88,14 @@ export default function Home() {
                 <div className="bg-white/10 p-3 rounded-xl"><MapPin /></div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Our Location</h4>
-                  <p className="text-white/70">Gajanan Society, Sant Nagar, Sector 4, Moshi, Pune, Maharashtra 411070</p>
+                  <p className="text-white/70">B-2 Gajanan Society, Sector No. 4, Plot No. 1, Sant Nagar, Moshi Pradhikaran, Pune - 412105</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
                 <div className="bg-white/10 p-3 rounded-xl"><Phone /></div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Contact Us</h4>
-                  <p className="text-white/70">09970836811</p>
+                  <p className="text-white/70">9970836811</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">

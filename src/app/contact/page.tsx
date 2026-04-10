@@ -20,7 +20,7 @@ const ContactPage = () => {
           <div>
             <h1 className="text-5xl font-bold text-charcoal mb-8">Get in <span className="text-primary italic">Touch</span></h1>
             <p className="text-lg text-charcoal/60 mb-12 max-w-md">
-              Have questions about treatments? We're here to help you on your healing journey. Reach out to us anytime.
+              Have questions about treatments? We&apos;re here to help you on your healing journey. Reach out to us anytime.
             </p>
 
             <div className="space-y-10">
@@ -30,7 +30,7 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-charcoal mb-1">Our Location</h4>
-                  <p className="text-charcoal/60">Gajanan Society, Sant Nagar, Sector 4, Moshi, Pune, Maharashtra 411070</p>
+                  <p className="text-charcoal/60">B-2 Gajanan Society, Sector No. 4, Plot No. 1, Sant Nagar, Moshi Pradhikaran, Pune - 412105</p>
                   <a 
                     href="https://maps.google.com" 
                     target="_blank" 
@@ -48,8 +48,10 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-charcoal mb-1">Call Us</h4>
-                  <p className="text-charcoal/60">09970836811</p>
-                  <a href="tel:09970836811" className="text-primary text-sm font-bold mt-2 inline-block hover:underline">Click to Call</a>
+                  <p className="text-charcoal/60">9970836811</p>
+                  <a href="tel:9970836811" className="bg-primary/10 text-primary text-xs font-bold px-4 py-2 rounded-lg mt-3 inline-flex items-center gap-2 hover:bg-primary hover:text-white transition-all">
+                    <Phone size={14} /> Call Now
+                  </a>
                 </div>
               </div>
 

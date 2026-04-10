@@ -43,8 +43,8 @@ const PrivacyPage = () => {
           </p>
           <p className="font-bold">
             Shubhay Clinic<br />
-            Moshi, Pune, Maharashtra 411070<br />
-            Phone: 09970836811
+            B-2 Gajanan Society, Sector No. 4, Plot No. 1, Sant Nagar, Moshi Pradhikaran, Pune - 412105<br />
+            Phone: 9970836811
           </p>
         </div>
       </section>

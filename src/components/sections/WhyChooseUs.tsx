@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
     },
     {
       title: 'Holistic Results',
-      description: 'We focus on root-cause elimination rather than just symptomatic relief.',
+      description: 'We provide authentic Ayurvedic treatments focused on root-cause healing and long-term wellness.',
       icon: <CheckSquare className="w-6 h-6" />,
     },
     {

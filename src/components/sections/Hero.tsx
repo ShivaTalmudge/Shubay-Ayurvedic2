@@ -51,7 +51,7 @@ const Hero = () => {
                 Book Appointment <ArrowRight size={20} />
               </Link>
               <a 
-                href="tel:09970836811" 
+                href="tel:9970836811" 
                 className="bg-white text-charcoal px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 border border-charcoal/10 hover:bg-charcoal/5 transition-all hover-lift shadow-sm"
               >
                 Call Support
@@ -116,8 +116,8 @@ const Hero = () => {
               transition={{ delay: 1, type: "spring" }}
               className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-2xl z-20 border border-primary/10"
             >
-              <div className="text-primary font-bold text-sm uppercase tracking-tighter mb-1">Authenticity</div>
-              <div className="text-charcoal text-xs font-medium">Certified Practitioners</div>
+              <div className="text-primary font-bold text-sm uppercase tracking-tighter mb-1">Trusted Ayurvedic Care</div>
+              <div className="text-charcoal text-xs font-medium">Experienced Doctor Consultation</div>
             </motion.div>
           </motion.div>
         </div>

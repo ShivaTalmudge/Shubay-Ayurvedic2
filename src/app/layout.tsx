@@ -15,9 +15,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Shubhay Clinic - Authentic Ayurved & Panchkarma in Pune",
-  description: "Experience authentic Ayurvedic healing at Shubhay Clinic. Specializing in Panchkarma therapy, detox programs, and personalized health care in Moshi, Pune.",
-  keywords: ["Ayurvedic Clinic in Pune", "Panchkarma Treatment in Moshi", "Best Ayurveda Doctor in Pune", "Shubhay Clinic"],
+  title: "Shubhay Clinic - Dr. Sameer Deshmukh | Ayurvedic Clinic & Panchkarma in Pune",
+  description: "Visit Dr. Sameer Deshmukh at Shubhay Clinic (Moshi, Pune) for authentic Ayurvedic treatments, Panchkarma, Obesity treatment, PCOD, and chronic healing. Rooted in tradition.",
+  keywords: ["Dr. Sameer Deshmukh", "Ayurvedic Clinic in Moshi Pune", "Shubhay Clinic Pune", "Panchkarma Treatment in Pune", "Ayurvedic Doctor for PCOD", "Obesity treatment Pune"],
 };
 
 export default function RootLayout({

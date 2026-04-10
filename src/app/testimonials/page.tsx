@@ -67,7 +67,7 @@ const TestimonialsPage = () => {
                 {[...Array(rev.rating)].map((_, i) => <Star key={i} size={18} fill="currentColor" />)}
               </div>
               
-              <p className="text-charcoal/70 text-lg leading-relaxed mb-8 italic">"{rev.review}"</p>
+              <p className="text-charcoal/70 text-lg leading-relaxed mb-8 italic">&quot;{rev.review}&quot;</p>
               
               <div className="flex items-center gap-4 mt-auto">
                 <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center font-bold text-primary">

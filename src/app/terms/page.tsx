@@ -23,7 +23,7 @@ const TermsPage = () => {
 
           <h2 className="text-2xl font-bold text-charcoal mt-10">3. Cancellation Policy</h2>
           <p>
-            We appreciate at least 24 hours' notice for any appointment cancellations or rescheduling. This allows us to offer the slot to other patients in need of treatment.
+            We appreciate at least 24 hours&apos; notice for any appointment cancellations or rescheduling. This allows us to offer the slot to other patients in need of treatment.
           </p>
 
           <h2 className="text-2xl font-bold text-charcoal mt-10">4. Use of Website</h2>

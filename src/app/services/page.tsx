@@ -5,47 +5,47 @@ import Link from 'next/link';
 const ServicesPage = () => {
   const services = [
     {
-      title: 'Panchkarma Therapy',
-      description: 'The ultimate Ayurvedic detoxification process that purifies the tissues and restores balance through a series of five specialized treatments.',
-      benefits: ['Detoxifies the entire body', 'Strengthens immune system', 'Reduces stress and anxiety', 'Improves digestive health'],
-      duration: '7 - 21 Days (Recommended)',
-      suitableFor: 'Chronic detoxification, lifestyle disorders, general rejuvenation.',
-      icon: <Droplet className="w-8 h-8" />,
-      image: '/images/panchkarma.png'
-    },
-    {
-      title: 'Basti Treatment',
-      description: 'A medicated enema therapy considered the "Mother of all treatments" for its ability to clear toxins from the lower colon and balance Vata Dosha.',
-      benefits: ['Relieves chronic constipation', 'Treats lower back pain', 'Improves neurological health', 'Enhances bone density'],
-      duration: '45 - 60 Minutes',
-      suitableFor: 'Joint pain, digestive issues, nervous system disorders.',
+      title: "Obesity & Weight Management",
+      description: 'A holistic Ayurvedic approach integrating detox, diet modifications, and medicinal treatments for sustainable weight loss and prevention of chronic diseases.',
+      benefits: ['Healthy weight loss', 'Improved metabolism', 'Prevents chronic diseases', 'Boosts daily energy'],
+      duration: '14 - 30 Days',
+      suitableFor: 'Obesity, slow metabolism, lethargy.',
       icon: <Wind className="w-8 h-8" />,
+      image: '/images/detox.png'
+    },
+    {
+      title: "Women's Health",
+      description: 'Specialized care for hormonal imbalances addressing conditions like Infertility and PCOD through authentic Panchkarma and lifestyle counseling.',
+      benefits: ['Balances hormones', 'Regulates menstrual cycle', 'Improves fertility naturally', 'Reduces stress'],
+      duration: 'Variable',
+      suitableFor: 'Infertility, PCOD/PCOS, Hormonal Issues.',
+      icon: <Sparkles className="w-8 h-8" />,
       image: '/images/panchkarma.png'
     },
     {
-      title: 'Abhyanga Massage',
-      description: 'A rhythmic and soothing massage with warm medicated oils that penetrate deep into the skin to nourish and revitalize the body.',
-      benefits: ['Increases blood circulation', 'Improves skin texture', 'Promotes sound sleep', 'Relieves muscle stiffness'],
-      duration: '60 - 90 Minutes',
-      suitableFor: 'Stress relief, physical fatigue, skin health.',
+      title: "Dermatology & Skin Care",
+      description: 'Deep blood purification therapies to treat stubborn skin conditions by eliminating root-cause impurities.',
+      benefits: ['Clears acne and scars', 'Relieves Psoriasis', 'Restores natural skin glow', 'Deep blood purification'],
+      duration: '21 - 45 Days',
+      suitableFor: 'Psoriasis, Severe Acne, Skin allergies.',
       icon: <Sun className="w-8 h-8" />,
       image: '/images/abhyanga.png'
     },
     {
-      title: 'Detox Programs',
-      description: 'Systematic approach to cleansing the body using traditional Ayurvedic methods tailored to your specific toxicity levels.',
-      benefits: ['Weight management', 'Clearer skin', 'Higher energy levels', 'Mental clarity'],
-      duration: '3 - 14 Days',
-      suitableFor: 'Metabolic issues, seasonal rejuvenation.',
-      icon: <Sparkles className="w-8 h-8" />,
-      image: '/images/detox.png'
+      title: "Joint & Spine Care",
+      description: 'Targeted therapies using medicated oils and poultices to reduce inflammation, improve mobility, and heal structural ailments in joints and bones.',
+      benefits: ['Relieves joint pain', 'Heals spine disorders', 'Improves body flexibility', 'Reduces inflammation'],
+      duration: '7 - 21 Days',
+      suitableFor: 'Arthritis, Frozen Shoulder, Spine Disorders.',
+      icon: <Droplet className="w-8 h-8" />,
+      image: '/images/panchkarma.png'
     },
     {
-      title: 'Digestive Treatments',
-      description: 'Specialized therapies and herbal interventions to fix "Agni" (digestive fire) and resolve long-term gastrointestinal issues.',
-      benefits: ['Cures IBS and acidity', 'Boosts metabolism', 'Reduces bloating', 'Balances appetite'],
-      duration: 'Varies by condition',
-      suitableFor: 'Gastritis, poor appetite, chronic indigestion.',
+      title: "Digestion & Metabolic Health",
+      description: 'Corrective treatments focusing on metabolic fire to naturally heal digestive problems, acid reflux, kidney stones, and associated headaches.',
+      benefits: ['Cures acidity & indigestion', 'Kidney stone management', 'Relieves severe Migraine', 'Improves gut health'],
+      duration: '10 - 21 Days',
+      suitableFor: 'Acidity, Migraine, Indigestion, Kidney Stones.',
       icon: <Flame className="w-8 h-8" />,
       image: '/images/detox.png'
     }
@@ -129,7 +129,7 @@ const ServicesPage = () => {
             Every treatment at Shubhay Clinic starts with a consultation to determine your body type (Prakriti) and specific health needs.
           </p>
           <a 
-            href="tel:09970836811" 
+            href="tel:9970836811" 
             className="bg-charcoal text-white px-10 py-5 rounded-2xl font-bold text-lg hover-lift inline-block"
           >
             Consult with Doctor Now

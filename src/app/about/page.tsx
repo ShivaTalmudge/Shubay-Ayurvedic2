@@ -83,7 +83,7 @@ const AboutPage = () => {
               <div className="flex gap-1 text-primary mb-2">
                 <Star fill="currentColor" size={20} /><Star fill="currentColor" size={20} /><Star fill="currentColor" size={20} /><Star fill="currentColor" size={20} /><Star fill="currentColor" size={20} />
               </div>
-              <p className="text-charcoal italic font-medium">"Healing is not just about treating disease, it's about restoring harmony."</p>
+              <p className="text-charcoal italic font-medium">&quot;Healing is not just about treating disease, it&apos;s about restoring harmony.&quot;</p>
             </motion.div>
             <div className="absolute -top-10 -left-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl -z-0"></div>
           </motion.div>
@@ -96,10 +96,10 @@ const AboutPage = () => {
           >
             <div>
               <span className="text-primary font-bold uppercase tracking-widest text-sm mb-4 block">The Heart of our clinic</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-charcoal mb-4">Meet our expert <br /><span className="text-primary italic">Ayurvedic Physician</span></h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-charcoal mb-4">Meet <span className="text-primary italic">Dr. Sameer Deshmukh</span></h2>
               <div className="w-20 h-1 bg-primary rounded-full mb-8"></div>
               <p className="text-lg text-charcoal/70 leading-relaxed">
-                Our lead doctor brings over 10 years of clinical expertise in treating chronic lifestyle disorders through authentic Panchkarma and Ayurvedic medicines. With a deep commitment to patient care, they ensure every individual receives a personalized path to recovery.
+                Dr. Sameer Deshmukh brings over 10 years of clinical expertise in treating chronic lifestyle disorders through authentic Panchkarma and Ayurvedic medicines. With a deep commitment to patient care, he ensures every individual receives a personalized path to recovery.
               </p>
             </div>
             

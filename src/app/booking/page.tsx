@@ -16,12 +16,12 @@ const BookingPage = () => {
   });
 
   const services = [
-    'Panchkarma Therapy',
-    'Basti Treatment',
-    'Abhyanga Massage',
-    'Detox Program',
-    'Digestive Treatment',
-    'General Consultation'
+    'Obesity',
+    'Infertility',
+    'PCOD',
+    'Psoriasis & Acne',
+    'Arthritis & Spine Disorder',
+    'Migraine & Acidity'
   ];
 
   const times = [
@@ -176,14 +176,14 @@ const BookingPage = () => {
                 {[...Array(6)].map((_, i) => (
                   <motion.div
                     key={i}
-                    initial={{ y: -20, opacity: 0, x: Math.random() * 400 - 200 }}
+                    initial={{ y: -20, opacity: 0, x: (i * 100) % 400 - 200 }}
                     animate={{ 
                       y: [0, 400], 
                       opacity: [0, 1, 0],
                       rotate: [0, 360],
                     }}
                     transition={{ 
-                      duration: 4 + Math.random() * 2, 
+                      duration: 4 + (i * 0.5) % 2, 
                       repeat: Infinity, 
                       delay: i * 0.5 
                     }}

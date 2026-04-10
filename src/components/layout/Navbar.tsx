@@ -43,6 +43,7 @@ const Navbar = () => {
           <div className="flex flex-col">
             <span className="text-xl font-bold text-primary leading-tight">Shubhay Clinic</span>
             <span className="text-[10px] text-charcoal/60 uppercase tracking-widest font-medium">Ayurved & Panchkarma</span>
+            <span className="text-[10px] text-primary/70 font-medium">शुभाय क्लिनिक - आयुर्वेद आणि पंचकर्म</span>
           </div>
         </Link>
 

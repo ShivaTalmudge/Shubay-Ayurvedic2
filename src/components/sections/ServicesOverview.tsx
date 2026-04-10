@@ -7,22 +7,22 @@ import Link from 'next/link';
 const ServicesOverview = () => {
   const services = [
     {
-      title: 'Panchkarma Therapy',
-      description: 'A comprehensive detox process to cleanse the body from deep-seated toxins.',
+      title: 'Joint & Spine Care',
+      description: 'Effective Ayurvedic treatments for Arthritis, Frozen Shoulder, and Spine Disorders.',
       image: '/images/panchkarma.png',
       icon: <Droplet className="w-5 h-5" />,
       color: 'bg-teal-50',
     },
     {
-      title: 'Abhyanga Massage',
-      description: 'Traditional full body massage with medicated oils to improve circulation.',
+      title: 'Metabolic & Lifestyle',
+      description: 'Holistic management of Obesity, Migraine, Acidity, Indigestion, and Kidney Stones.',
       image: '/images/abhyanga.png',
       icon: <Sun className="w-5 h-5" />,
       color: 'bg-orange-50',
     },
     {
-      title: 'Detox Programs',
-      description: 'Specialized programs to reset your digestive system and boost immunity.',
+      title: 'Women&apos;s & Skin Health',
+      description: 'Specialized care for Infertility, PCOD, Psoriasis, Acne, and chronic issues.',
       image: '/images/detox.png',
       icon: <Wind className="w-5 h-5" />,
       color: 'bg-blue-50',
@@ -57,7 +57,7 @@ const ServicesOverview = () => {
               Our Healing <span className="text-primary italic">Treatments</span>
             </motion.h2>
             <p className="text-xl text-charcoal/50 max-w-lg">
-              Combining ancient wisdom with compassionate care to restore your body's natural harmony.
+              Combining ancient wisdom with compassionate care to restore your body&apos;s natural harmony.
             </p>
           </div>
           <Link 
