@@ -48,6 +48,15 @@ const ServicesPage = () => {
       suitableFor: 'Acidity, Migraine, Indigestion, Kidney Stones.',
       icon: <Flame className="w-8 h-8" />,
       image: '/images/detox.png'
+    },
+    {
+      title: "Chronic Diseases & Wellness",
+      description: 'Comprehensive Ayurvedic management for long-standing health issues, focusing on immune modulation and restorative therapies.',
+      benefits: ['Root-cause healing', 'Immune system boost', 'Long-term wellness', 'Minimizes recurrence'],
+      duration: 'Variable',
+      suitableFor: 'All Chronic Diseases, Lifestyle disorders, Post-illness recovery.',
+      icon: <Heart className="w-8 h-8" />,
+      image: '/images/doctor.png'
     }
   ];
 

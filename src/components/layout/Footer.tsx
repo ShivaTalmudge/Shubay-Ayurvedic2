@@ -38,10 +38,10 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-bold mb-6">Our Services</h4>
           <ul className="space-y-4">
-            <li><Link href="/services" className="text-white/60 hover:text-primary transition-colors text-sm">Panchkarma Therapy</Link></li>
-            <li><Link href="/services" className="text-white/60 hover:text-primary transition-colors text-sm">Basti Treatment</Link></li>
-            <li><Link href="/services" className="text-white/60 hover:text-primary transition-colors text-sm">Abhyanga Massage</Link></li>
-            <li><Link href="/services" className="text-white/60 hover:text-primary transition-colors text-sm">Detox Programs</Link></li>
+            <li><Link href="/services" className="text-white/60 hover:text-primary transition-colors text-sm">Obesity & Weight Loss</Link></li>
+            <li><Link href="/services" className="text-white/60 hover:text-primary transition-colors text-sm">PCOD & Infertility</Link></li>
+            <li><Link href="/services" className="text-white/60 hover:text-primary transition-colors text-sm">Arthritis & Joint Care</Link></li>
+            <li><Link href="/services" className="text-white/60 hover:text-primary transition-colors text-sm">Panchkarma Detox</Link></li>
           </ul>
         </div>
 

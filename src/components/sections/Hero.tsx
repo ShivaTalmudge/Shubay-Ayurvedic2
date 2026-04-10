@@ -40,7 +40,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-lg text-charcoal/70 mb-10 max-w-xl leading-relaxed">
-              Restore balance and rejuvenation through ancient wisdom. At Shubhay Clinic, we provide personalized Panchkarma and Ayurvedic treatments tailored to your unique body type.
+              Restore balance and rejuvenation through ancient wisdom. Under the expert guidance of <span className="text-primary font-bold">Dr. Sameer Deshmukh</span> at Shubhay Clinic, we provide personalized Panchkarma and Ayurvedic treatments tailored to your unique body type.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

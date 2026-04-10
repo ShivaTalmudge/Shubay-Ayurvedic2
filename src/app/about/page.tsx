@@ -15,7 +15,7 @@ const AboutPage = () => {
             <span className="text-primary italic">Healing with Heart</span>
           </h1>
           <p className="text-lg text-charcoal/60 leading-relaxed">
-            Shubhay Clinic is a premier Ayurvedic wellness center in Pune, dedicated to restoring the natural balance of body, mind, and spirit.
+            Shubhay Clinic - Ayurved & Panchkarma is a premier Ayurvedic wellness center in Moshi, Pune, led by Dr. Sameer Deshmukh. We are dedicated to restoring the natural balance of body, mind, and spirit through authentic traditional healing.
           </p>
         </div>
       </section>

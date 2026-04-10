@@ -16,12 +16,14 @@ const BookingPage = () => {
   });
 
   const services = [
-    'Obesity',
-    'Infertility',
-    'PCOD',
+    'Obesity & Weight',
+    'Infertility & PCOD',
     'Psoriasis & Acne',
-    'Arthritis & Spine Disorder',
-    'Migraine & Acidity'
+    'Arthritis & Spine',
+    'Frozen Shoulder',
+    'Acidity & Migraine',
+    'Indigestion & Stones',
+    'Chronic Diseases'
   ];
 
   const times = [
