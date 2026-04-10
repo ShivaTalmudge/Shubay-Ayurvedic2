@@ -1,26 +1,55 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #2E8B8B;
+  --color-secondary: #CFE8E8;
+  --color-accent: #F4EDE4;
+  --color-highlight: #D08770;
+  --color-charcoal: #2F2F2F;
+  
+  --radius-xl: 20px;
+  --radius-lg: 12px;
+  
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #2E8B8B;
+  --secondary: #CFE8E8;
+  --accent: #F4EDE4;
+  --highlight: #D08770;
+  --charcoal: #2F2F2F;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--accent);
+  color: var(--charcoal);
+  font-family: 'Inter', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(46, 139, 139, 0.1);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(46, 139, 139, 0.15);
+}
+
